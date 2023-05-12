@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #E8A236;
+    --color2: #212121;
+    --color3: #1b1b1b;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E8A236;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr {
+    margin: 10px auto;
+    width: 66%;
+    height: 1px;
+    border: 0;
+    background-color: var(--color1);
+}
+.main-app {
+    font-size: 1.1rem;
+    width: 286px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+}
+
+.main-name {
+    text-align: center;
+}
+
+.date-text {
+    margin: 10px;
+}
+
+.date-area {
+    padding: 8px;
+    border-radius: 25px;
+    border: none;
+    font-size: 14px;
+    margin: 10px 0;
+    background-color: var(--color3);
+    color: var(--color1);
+}
+input:focus{
+    outline: none;
+}
+::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    background-color: var(--color1);
+    padding: 3px;
+    border-radius: 25px;
+    margin: 2px;
+}
+
+.btn1 {
+    border-radius: 25px;
+    background-color: var(--color1);
+    color: var(--color2);
+    padding: 13px;
+    cursor: pointer;
+    width: fit-content;
+    transition: 0.4s;
+}
+#btn1-today {
+    margin: 10px 0;
+    font-size: 0.8em;
+}
+
+.btn2 {
+    cursor: pointer;
+    color: var(--color1);
+}
+
+.output-area {
+    margin: 10px 0;
+    width: 90%;
+    background-color: var(--color3);
+    padding: 15px;
+    border-radius: 25px;
+    word-wrap: break-word;
+    min-height: 3em;
+}
+
+.output-button-cont {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+#btn2-reset {
+    margin: 0 10px;
+}
+
+.btn1:hover {
+    background-color: aliceblue;
+    color: var(--color1);
+}
+
+
+
+
