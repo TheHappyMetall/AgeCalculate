@@ -81,6 +81,7 @@ input:focus{
 .btn2 {
     cursor: pointer;
     color: var(--color1);
+    transition: 0.4s;
 }
 
 .output-area {
@@ -91,6 +92,7 @@ input:focus{
     border-radius: 25px;
     word-wrap: break-word;
     min-height: 3em;
+    text-align: center;
 }
 
 .output-button-cont {
@@ -106,6 +108,10 @@ input:focus{
 .btn1:hover {
     background-color: aliceblue;
     color: var(--color1);
+}
+
+.btn2:hover {
+    text-shadow:  3px 0 1.3em;
 }
 
 
