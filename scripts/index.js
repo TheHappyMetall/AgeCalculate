@@ -39,7 +39,7 @@ function calcDate(startDate, endDate) {
 
 function showCalcDate() {
   OutputArea.innerHTML = `
-  Ваш возраст: ${resYears} лет 
+  Ваш возраст: <hr>${resYears} лет 
   <br> 
   <span class="line-title">или</span> 
   <br>

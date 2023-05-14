@@ -142,4 +142,7 @@ input:focus {
   margin-right: -100%;
   right: -14px;
 }
+.output-area > hr {
+  opacity: 0.4;
+}
 /*  */
